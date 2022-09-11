@@ -1,0 +1,3 @@
+CELERY_APP_NAME = 'task_routing'
+CELERY_BROKER = 'redis://192.168.1.114:6379/0'
+CELERY_BACKEND = 'redis://192.168.1.114:6379/1'
